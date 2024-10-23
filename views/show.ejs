@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>show details</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+   <div class="box">
+    <h2>Here is your post details..</h2>
+    <p>id :<%= user.id %> </p>
+    <p>Username :<%= user.username %> </p>
+    <p><b>Content : </b><%= user.content %> </p>
+    <form action="http://localhost:8080/posts" method="get">
+        <button>Home page</button>
+    </form>
+   </div>
+</body>
+</html>

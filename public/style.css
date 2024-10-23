@@ -1,0 +1,31 @@
+h1{
+    color: #252A34;
+    text-align: center;
+}
+.post{
+    background-color: #08D9D6;
+    padding: 5px;    
+    border-radius: 10px;
+}
+button{
+    background-color: #FF2E63;
+    border: 1px solid black;
+    border-radius: 4px;
+} 
+input{
+    border: 2px solid black;
+}
+textarea{
+    border: 2px solid black ;
+} 
+h2{
+    color: #025141;
+}
+.box{
+    height: 60vh;
+    /* width: 40vw; */
+    border: 2px solid black;
+    border-radius: 7px;
+    text-align: center;
+}
+
